@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FentaSnickers - Menú Principal</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #a03c3c; 
+      color: white;
+    }
+
+    /* Encabezado y menú */
+    header {
+      background-color: #691717;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    header h1 {
+      margin: 10px 0 5px 0;
+      color: #fff;
+      font-size: 36px;
+    }
+
+    header p {
+      font-style: italic;
+      color: #ccc;
+      font-size: 18px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    li {
+      display: inline-block;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #444;
+    }
+
+    /* Sección del banner */
+    .banner {
+      width: 100%;
+      height: 400px;
+      background-image: url("banner.png");
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 20px;
+    }
+
+    /* Texto principal */
+    .quienes-somos {
+      text-align: left;
+      margin: 30px auto;
+      width: 80%;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      border-radius: 10px;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    /* Galería de productos */
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      width: 80%;
+      margin: 40px auto;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 20px;
+      border: 2px solid white;
+      border-radius: 10px;
+    }
+
+    .producto {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .producto img {
+      width: 100%;
+      max-width: 250px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid white;
+    }
+
+    .producto p {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    /* Article informativo */
+    article {
+      width: 80%;
+      margin: 40px auto;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid #fff;
+    }
+
+    article h2 {
+      color: #ffcccb;
+    }
+
+    article p {
+      line-height: 1.6;
+      font-size: 18px;
+      color: #fff;
+    }
+
+    /* Pie de página */
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #fff;
+      background-color: #000;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <h1>FentaSnickers</h1>
+    <p>"Dale estilo y velocidad a cada paso"</p>
+    <ul>
+      <li><a href="file:///C:/Users/franc/OneDrive/Documentos/trabajo_venta.html" class="active">Inicio</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="Formulario_2.html">Contáctanos</a></li>
+    </ul>
+  </header>
+
+  <!-- SECCIONES -->
+  <section>
+    <div class="banner"></div>
+
+    <div class="quienes-somos">
+      <h2>¿Quiénes somos?</h2>
+      <p>
+        En <b>FentaSnickers</b> somos una tienda dedicada a ofrecer los mejores modelos de tenis urbanos, deportivos y de moda. 
+        Nos apasiona el calzado y creemos que cada par de tenis refleja la personalidad y el estilo de quien los usa. 
+        Por eso trabajamos día a día para traerte las marcas más reconocidas, los lanzamientos más recientes y las ediciones exclusivas que no encontrarás en otro lugar.
+      </p>
+    </div>
+
+    <div class="galeria">
+      <div class="producto">
+        <img src="air.png" alt="Tenis Air Classic">
+        <p>Tenis Air Classic</p>
+      </div>
+      <div class="producto">
+        <img src="urban max.png" alt="Tenis Urban Max">
+        <p>Tenis Urban Max</p>
+      </div>
+      <div class="producto">
+        <img src="street pro.png" alt="Tenis StreetPro">
+        <p>Tenis StreetPro</p>
+      </div>
+      <div class="producto">
+        <img src="retroware.png" alt="Tenis RetroWave">
+        <p>Tenis RetroWave</p>
+      </div>
+      <div class="producto">
+        <img src="flex run.png" alt="Tenis FlexRun">
+        <p>Tenis FlexRun</p>
+      </div>
+      <div class="producto">
+        <img src="converse.png" alt="Tenis CityStyle">
+        <p>Tenis CityStyle</p>
+      </div>
+    </div>
+
+    <!-- Article sobre tenis cómodos -->
+    <article>
+      <h2>Tenis ideales para correr: Nike Air Zoom Pegasus</h2>
+      <p>
+        Los <b>Nike Air Zoom Pegasus</b> son uno de los modelos más cómodos y versátiles para correr. 
+        Cuentan con una suela de espuma React que ofrece una amortiguación ligera y sensible, además de una unidad Zoom Air en el antepié 
+        que brinda un impulso adicional en cada paso. Su malla transpirable mantiene los pies frescos y su diseño ergonómico proporciona soporte en el arco 
+        y estabilidad al talón. Son ideales tanto para entrenamientos diarios como para carreras largas.
+      </p>
+    </article>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    Desarrollado por: Francisco Velázquez | 2025 FentaSnickers
+  </footer>
+
+</body>
+</html>

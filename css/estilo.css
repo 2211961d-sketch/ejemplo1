@@ -1,0 +1,137 @@
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #a03c3c; 
+      color: white;
+    }
+
+    /* Encabezado y menú */
+    header {
+      background-color: #691717;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    header h1 {
+      margin: 10px 0 5px 0;
+      color: #fff;
+      font-size: 36px;
+    }
+
+    header p {
+      font-style: italic;
+      color: #ccc;
+      font-size: 18px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    li {
+      display: inline-block;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #444;
+    }
+
+    /* Sección del banner */
+    .banner {
+      width: 100%;
+      height: 400px;
+      background-image: url("banner.png");
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 20px;
+    }
+
+    /* Texto principal */
+    .quienes-somos {
+      text-align: left;
+      margin: 30px auto;
+      width: 80%;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      border-radius: 10px;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    /* Galería de productos */
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      width: 80%;
+      margin: 40px auto;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 20px;
+      border: 2px solid white;
+      border-radius: 10px;
+    }
+
+    .producto {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .producto img {
+      width: 100%;
+      max-width: 250px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid white;
+    }
+
+    .producto p {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    /* Article informativo */
+    article {
+      width: 80%;
+      margin: 40px auto;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid #fff;
+    }
+
+    article h2 {
+      color: #ffcccb;
+    }
+
+    article p {
+      line-height: 1.6;
+      font-size: 18px;
+      color: #fff;
+    }
+
+    /* Pie de página */
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #fff;
+      background-color: #000;
+      margin-top: 40px;
+    }
